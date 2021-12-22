@@ -12,6 +12,7 @@
 .present{
 
 	display:flex;
+	flex-wrap:wrap;
 	align-items:center;
 }
 
@@ -26,7 +27,8 @@ canvas, button{
 button{
 
 	font-size:35px;
-	
+	margin-top:10px;
+	margin-bottom:10px;
 
 
 }
