@@ -1,0 +1,36 @@
+
+.r{
+    border-radius: 5px;
+	border: 12px solid rgb(209, 180, 13);
+	
+}
+
+.loader{
+	display:none;
+}
+
+.present{
+
+	display:flex;
+	align-items:center;
+}
+
+canvas, button{
+	
+  	margin-left: auto;
+  	margin-right: auto;
+	
+	
+}
+
+button{
+
+	font-size:35px;
+	
+
+
+}
+
+
+
+
