@@ -27,9 +27,9 @@ function draw(){
     for(var i=0; i<norbs; i++){
     
     roll*=2.34568;
-    pos[i][0]=200 + 200*Math.sin(roll);
+    pos[i][0]=290 + 150*Math.sin(roll);
     roll*=2.34568;
-    pos[i][1]=300+300*Math.sin(roll);
+    pos[i][1]=352+190*Math.sin(roll);
     
     }
 
@@ -45,7 +45,10 @@ function draw(){
     //draw randomly positioned elements
     for(var i=1; i<norbs; i++){
 
-        ctx.drawImage(orbs[i], pos[i][0], pos[i][1]);
+        ctx.drawImage(orbs[i], pos[i][0]-orbs[i].width/2, pos[i][1]-orbs[i].height/2);
+        console.log(orbs[i].width);
+        console.log(orbs[i].height);
+
     }
     
 
