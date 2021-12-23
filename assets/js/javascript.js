@@ -20,6 +20,9 @@ for(var i=0; i<norbs; i++){
 //when button is clicked
 function draw(){
 
+    //change button text                    
+    document.getElementById("B").innerHTML="Click to make a new one!"
+
     //seed pseudorandom number generator
     var roll = Date.now()%1000;
 
